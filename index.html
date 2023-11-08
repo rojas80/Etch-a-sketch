@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ETCH-A-SKETCH</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="etchSketch.js" defer></script>
+    </head>
+    <body>
+        <h1>Etch-A-Skecth</h1>
+        <div id="main-container">
+            <div id="side-bar">
+                <label for="slider"> Select value:</label>
+                <input type="range" id="slider"  name ="slider" min="1" max="70" step="1" value="25">
+                <p>Grid size: <span id="slider-value">30 x 30</span> </p>
+                <button id="new-grid"> New Grid</button>
+                <button id="clear-grid">Clear Grid</button>
+
+            </div>
+
+            <div id="container-grid">
+
+            </div>
+        </div>
+    </body>
+</html>

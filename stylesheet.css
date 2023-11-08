@@ -1,0 +1,27 @@
+body{
+    background: #dbdbdb;
+}
+#main-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+#side-bar{
+    align-content: center;
+    align-content: center;
+}
+
+#container-grid{
+    border: 5px  solid orange;
+    background: white;
+    width: 600px;
+    height: 600px;
+    box-shadow: inset;
+}
+
+h1{
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+}
